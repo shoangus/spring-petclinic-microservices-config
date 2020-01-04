@@ -5,6 +5,8 @@ eureka:
     # enable to register multiple app instances with a random server port
     instance-id: ${spring.application.name}:${random.uuid}
 
+spring.sleuth.sampler.probability: 1.0
+
 ---
 spring:
   profiles: docker
