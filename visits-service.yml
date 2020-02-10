@@ -21,6 +21,6 @@ eureka:
       
 opentracing:
   jaeger:
-    udp-sender.host=tracing-server
-    udp-sender.port=6831
-    http-sender.url=http://tracing-server:16686/api/traces
+    udp-sender.host: tracing-server
+    udp-sender.port: 6831
+#     http-sender.url: http://tracing-server:16686/api/traces
