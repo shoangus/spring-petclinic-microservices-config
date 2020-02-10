@@ -24,7 +24,9 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://discovery-server:8761/eureka/
-       
+      
+spring.cache.cache-names=vets
+
 opentracing:
   jaeger:
     udp-sender.host: tracing-server
