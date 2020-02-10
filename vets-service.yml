@@ -24,10 +24,9 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://discovery-server:8761/eureka/
-      
-      
+       
 opentracing:
   jaeger:
     udp-sender.host=tracing-server
     udp-sender.port=6831
-#     http-sender.url=http://tracing-server:6831/api/traces      
+    http-sender.url=http://tracing-server:16686/api/traces
