@@ -10,8 +10,8 @@ spring.sleuth.sampler.probability: 1.0
 ---
 spring:
   profiles: docker
-  zipkin:
-    baseUrl: http://tracing-server:9411
+#   zipkin:
+#     baseUrl: http://tracing-server:9411
 server:
   port: 8082
 eureka:
